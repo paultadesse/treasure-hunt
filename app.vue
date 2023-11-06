@@ -3,6 +3,7 @@
     <div>
       <h1 class="font-bold text-2xl">Title</h1>
       <p class="py-4">
+       Type <span class="font-bold">correct</span> thats the answer <br><br> 
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat in hic
         accusamus ab sit cupiditate? Accusamus, maxime libero iste optio tenetur
         distinctio odit, error facere eaque eligendi itaque adipisci explicabo!
