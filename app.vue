@@ -3,7 +3,8 @@
     <div>
       <h1 class="font-bold text-2xl">Title</h1>
       <p class="py-4">
-       Type <span class="font-bold">correct</span> thats the answer <br><br> 
+        Type <span class="font-bold">correct</span> thats the answer
+        <br /><br />
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat in hic
         accusamus ab sit cupiditate? Accusamus, maxime libero iste optio tenetur
         distinctio odit, error facere eaque eligendi itaque adipisci explicabo!
@@ -83,6 +84,7 @@ var active_index = ref(0);
 var active_question = ref(given_data[active_index.value]);
 
 function setNextQuestion() {
+  if (active_index.value + 1 == given_data.length) return;
   active_question.value = given_data[++active_index.value];
 }
 </script>
